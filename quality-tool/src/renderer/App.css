@@ -1,0 +1,18 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import '~normalize.css/normalize.css';
+@import '@blueprintjs/core/lib/css/blueprint.css';
+@import '@blueprintjs/icons/lib/css/blueprint-icons.css';
+
+body {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(
+    200.96deg,
+    #ceccc328 -29.09%,
+    #8d898b 51.77%,
+    #d7d3da 129.35%
+  );
+}
