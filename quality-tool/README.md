@@ -1,6 +1,6 @@
 ## Install
 
-Clone the repo and install dependencies:
+Clone the repo and install dependencies using `yarn` (version 1)
 
 ```bash
 yarn
