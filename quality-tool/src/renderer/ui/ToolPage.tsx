@@ -7,13 +7,6 @@ const ToolPage = () => {
   const [controlFingerprint, setControlFingerprint] = useState('');
   const uploadControlFingerprint = () => {
     // opens a window to choose file
-  .remote.dialog
-    dialog.showOpenDialog({ properties: ['openFile'] }).then((result) => {
-      if (!result.canceled) {
-        const filePath = result.filePaths[0];
-        setControlFingerprint(filePath);
-      }
-    });
   };
 
   const scanTestFingerprint = () => {};
